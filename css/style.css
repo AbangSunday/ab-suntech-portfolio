@@ -36,10 +36,67 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* 3. HEADER */
 
-header {
-    background-color: var(--background-blue);
-    padding: 30px;
-    text-align: center;
+
+/* =================================
+   WEBSITE NAVIGATION
+================================= */
+
+.site-header {
+    background-color: var(--white);
+    padding: 22px 5%;
+    border-bottom: 1px solid var(--background-blue);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* BRAND NAME */
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark-slate);
+    text-decoration: none;
+}
+
+/* NAVIGATION LINKS */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navigation a {
+    color: var(--dark-slate);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: var(--primary-blue);
+}
+
+/* CONTACT BUTTON */
+
+.contact-button {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 12px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /* 4. MAIN HEADING */
