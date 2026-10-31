@@ -1,1 +1,77 @@
 
+/* =================================
+   A-B SUNTECH
+   OFFICIAL BRAND DESIGN SYSTEM
+================================= */
+
+/* 1. BRAND COLOUR VARIABLES */
+
+:root {
+    --primary-blue: #65A9DB;
+    --light-blue: #8FBADE;
+    --very-light-blue: #BEDCF1;
+    --background-blue: #E9F2F9;
+    --dark-slate: #324452;
+    --white: #FFFFFF;
+}
+
+/* 2. GLOBAL PAGE SETTINGS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--white);
+    color: var(--dark-slate);
+}
+
+/* 3. HEADER */
+
+header {
+    background-color: var(--background-blue);
+    padding: 30px;
+    text-align: center;
+}
+
+/* 4. MAIN HEADING */
+
+h1 {
+    color: var(--dark-slate);
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* 5. PARAGRAPHS */
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* 6. MAIN CONTENT */
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* 7. SECTION HEADING */
+
+h2 {
+    color: var(--primary-blue);
+    font-size: 28px;
+}
+
+/* 8. FOOTER */
+
+footer {
+    background-color: var(--dark-slate);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
