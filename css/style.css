@@ -137,3 +137,101 @@ footer {
     text-align: center;
 }
 
+
+/* =================================
+   PORTFOLIO SECTION
+================================= */
+
+.portfolio-section {
+    padding: 80px 5%;
+    background-color: var(--white);
+}
+
+/* SECTION INTRODUCTION */
+
+.section-heading {
+    max-width: 650px;
+    margin-bottom: 40px;
+}
+
+.eyebrow {
+    color: var(--primary-blue);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    color: var(--dark-slate);
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.section-heading > p:last-child {
+    color: var(--dark-slate);
+    max-width: 550px;
+}
+
+/* PORTFOLIO GRID */
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* PROJECT CARDS */
+
+.project-card {
+    min-width: 0;
+}
+
+.project-image {
+    background-color: var(--background-blue);
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.project-image span {
+    color: var(--primary-blue);
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.project-card h3 {
+    color: var(--dark-slate);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.project-card p {
+    color: var(--dark-slate);
+    font-size: 14px;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-section {
+        padding: 50px 5%;
+    }
+
+    .section-heading h2 {
+        font-size: 26px;
+    }
+
+    .project-image {
+        min-height: 200px;
+    }
+
+}
