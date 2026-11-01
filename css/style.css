@@ -400,8 +400,17 @@ footer {
     }
 
     .visual-card {
-        min-height: 280px;
-    }
+    min-height: 280px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+   .hero-visual {
+    width: 100%;
+    min-width: 0;
+   }
 
     .visual-card h2 {
         font-size: 48px;
