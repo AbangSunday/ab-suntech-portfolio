@@ -540,7 +540,7 @@ footer {
 }
 
 .service-card {
-    background-color: var(--white);
+    background-color: #E9F2F9;
     padding: 35px 28px;
     border-radius: 12px;
     border: 1px solid var(--very-light-blue);
