@@ -361,6 +361,7 @@ footer {
     padding: 40px;
     background-color: var(--dark-slate);
     color: var(--white);
+   border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -412,7 +413,8 @@ footer {
     min-width: 0;
    }
 
-    .visual-card h2 {
-        font-size: 48px;
-    }
+.visual-card h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
 }
